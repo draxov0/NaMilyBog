@@ -1,0 +1,62 @@
+nazwa interfejsu ==== lshw -C network 
+adresowanie karty ==== cd /etc/netplan/      00-netcfg.yaml
+
+1.
+mkdir -p /home/student/kopia
+cp /etc/passwd /home/student/kopia/
+
+
+2.
+chown student:root /home/student/kopia/passwd
+chmod 640 /home/student/kopia/passwd
+
+
+3.
+ps aux           top
+
+
+4.
+ip link        ip link show
+
+
+5.
+lshw -class network
+
+
+6.
+apt update
+
+
+
+
+
+
+1.
+tar -czvf /Kopie/default.tar.gz /etc/default
+
+
+2.
+chown -R student:student /Kopie
+chmod -R 700 /Kopie
+
+
+3.
+free -h
+
+
+4.
+echo "Ubuntu-X" > /etc/hostname
+nano /etc/hosts
+127.0.1.1   stara_nazwa
+127.0.1.1   Ubuntu-X
+qq
+reboot
+
+
+5.
+lsb_release -a           cat /etc/os-release
+
+
+6.
+apt update
+apt install -y ninvaders
