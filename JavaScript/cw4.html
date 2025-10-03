@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zgadnij liczbę</title>
+</head>
+<body> 
+    <style>
+        div 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+    </style>
+    <h1>Zgadnij liczbę</h1>
+    <p>Wybierz liczbę od 1 do 100</p>
+
+    <input type="number" id="guess">
+    <button id="start" onclick="checkGuess()">⊹</button>
+
+    <div id="wynik"></div>
+
+    <script>
+        const numer = Math.floor(Math.random() * 100) + 1;
+        let podejscia = 0;
+        let zgadniecie 
+        function checkGuess() {
+            zgadniecie = parseInt(document.getElementById('guess').value);
+            const wynik = document.getElementById('wynik');
+            podejscia++;
+            if (zgadniecie === numer) {
+                wynik.textContent = `Brawo!!! Zgadłeś liczbę ${numer} w ${podejscia} próbach!`;
+                wynik.style.color = 'green';
+                alert(`Gratulacje! Zgadłeś liczbę ${numer} w ${podejscia} próbach. :D`);
+                document.getElementById('start').disabled = true; 
+            } else if (zgadniecie > numer) {
+                wynik.textContent = 'Za dużo.';
+                wynik.style.color = 'red';
+                alert('Za dużo');
+            } else if (zgadniecie < numer) {
+                wynik.textContent = 'Za mało.';
+                wynik.style.color = 'yellow';
+                alert('Za mało');
+            }
+        }
+    </script>
+</body>
+</html>

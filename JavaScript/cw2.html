@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root1"></div>
+    <div id="root2"></div>
+    <script>
+        const root1 = document.querySelector("#root1");
+        root1.innerHTML = "<h1>to moje drugie ćwiczenie</h1>";
+        root2.innerHTML = "<h2>ala ma kota</h2>";
+        root2.style.textDecoration = "underline"
+        root2.style.border = "2px solid red"
+        root2.style.cursor = "pointer"
+        root2.onclick = function(){
+            alert("kliknięto w napis");
+        }
+    </script>
+</body>
+</html>

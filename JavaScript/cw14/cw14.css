@@ -1,0 +1,26 @@
+.line {
+  margin: 20px;
+}
+input[type='number'] {
+  width: 100px;
+}
+button {
+  width: 100px;
+  height: 30px;
+}
+.result {
+   margin: 10px;
+
+}
+table{
+    border-collapse: collapse;
+    margin:auto;
+    text-align: center;
+}
+td{
+    padding: 5px;
+    border: solid 1px black;
+}
+.red{
+  background-color: red;
+}

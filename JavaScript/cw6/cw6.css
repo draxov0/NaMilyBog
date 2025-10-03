@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    color: red;
+    background-color: darkgray;
+}
+#root{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}

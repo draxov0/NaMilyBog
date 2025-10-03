@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cw9.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ćwiczenie 9</h1>
+        <nav>bank cie nie oszuka 😎🤝😃💕🎉</nav>
+    </header>
+    <main>
+        <section class="form">
+            <center><h3>Udzielanie pożyczek w banku👍</h3></center>
+            <section>
+                <label for="money">Ilość pożyczki</label>
+                <input type="number" id="money" value="1000" min="0" max="20000">
+            </section>
+            <section>
+                <label for="time">Czas spłaty w miesiącach</label>
+                <input type="number" id="time" min="0" max="60" value="12">
+            </section>
+            <section>
+                <label for="rate">Stawka procentowa w skali roku</label>
+                <select id="rate">
+                    <option value="0.05">5%</option>
+                    <option value="0.1">10%</option>
+                    <option value="0.15">15%</option>
+                    <option value="0.2">20%</option>
+                    <option value="0.4">40%</option>
+                    <option value="0.5">50%</option>
+                    <option value="1.0">100%</option>
+                </select>
+            </section>
+            <section>
+                <input type="button" value="Oblicz" id="count">
+            </section>
+        </section>
+        <section class="form result">
+
+            <h3>Wynik</h3>
+            <p>Całkowita wartość do spłaty: <span id="result">0</span> zł</p>
+            <p>Rata misięczna: <span id="result2">0</span> zł</p>
+
+        </section>
+
+    </main>
+    <script src="cw9.js" defer></script>
+</body>
+
+</html>

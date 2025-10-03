@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cw10.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ćwiczenie 10?</h1>
+        <nav>FUEL ⛽🔥🚗</nav>
+    </header>
+    <main>
+        <section class="form">
+            <center><h3>Oblicz sobie paliwo👍</h3></center>
+            <section>
+                <label for="dystans">droga do pokonania</label>
+                <input type="number" id="dystans" value="30" min="0" max="20000">
+            </section>
+            <section>
+                <label for="burn">spalanie samochodu (litry na 100km)</label>
+                <input type="number" id="burn" min="0" max="60" value="10">
+            </section>
+            <section>
+                <label for="fuel">rodzaj paliwa</label>
+                <select id="fuel">
+                    <option value="3.80">LPG</option>
+                    <option value="6.31">Diesel</option>
+                    <option value="16.52">rp-1🚀</option>
+                    <option value="6.47">e98</option>
+                </select>
+            </section>
+            <section>
+                <input type="button" value="Oblicz" id="count">
+            </section>
+        </section>
+        <section class="form result">
+
+            <h3>Wynik</h3>
+            <p>koszt podróży (samo paliwo): <span id="result">0</span> zł</p>
+            
+
+        </section>
+
+    </main>
+    <script src="cw10.js" defer></script>
+</body>
+
+</html>

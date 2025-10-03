@@ -1,0 +1,41 @@
+main {
+    margin: 30px;
+    display: flex;
+    min-width: 1000px;
+  }
+  label {
+    display: inline-block;
+    text-align: right;
+    margin-right: 5px;
+    width: 200px;
+  }
+  input {
+    width: 200px;
+  }
+  #count {
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+  section {
+    margin-top: 20px;
+  }
+  .form {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+  }
+  #result{
+    color: blueviolet;
+    font: ImpactSans-Regular;
+    font-size: 20px;
+    font-weight: 80;
+  }
+
+  #result2{
+    color: blueviolet;
+    font: ImpactSans-Regular;
+    font-size: 20px;
+    font-weight: 80;
+  }
