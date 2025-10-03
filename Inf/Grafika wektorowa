@@ -1,0 +1,39 @@
+grafika komputerowa to dział informatyki zajmujący się tworzeniem obrazów tego co rzeczywiste bądź wymyślone za pośrednictwem komputera. obecnie wykorzystywana jest w takich obszarach jak:
+- wizualizacja danych pomiarowych
+- kartografia
+- projektowanie wspomagane komputerowo
+- przygotowanie do wydruku
+- symulacje
+- grafika stron internetowych
+- CGI
+- gry komputerowe
+
+w zależności od zastosowania i tworzenia obrazu grafika komputerowa dzieli się na kilka kategori, 
+- rastrową
+- wektorową
+- 2D
+- 3D
+- nieinterakcyjna
+- interkacyjna
+- grafika czasu rzeczywistego
+
+grafika wektorowa jest grafiką powstającą z obiektów prostych (linie, punkty, koła, itd.)
+obrazy zapisywane sa za pomocą wektorów opisujących położenie elementów z zastosowaniem wzorów matematycznych
+wykorzystywana w projektach z dużą precyzją
+
+grafika rastrowa to bitmapa, tworzy obraz 2D składający się z określonej liczby punktów (pikseli)
+każdy z nich ma wartość bitową która określa ich kolor
+wykorzystywana do edycji fotografi, tworzenie gifów, projektowania stron 
+charakteryzują ją 2 właściwości, rozdzielczość, określana jako wysokość i szerokość bitmapy, liczona jako liczba pikseli w poziomie i w pionie, druga to głębia kolorów, stanowiąca liczbę bitów na piksel i opisująca liczbę możliwych do uzyskania kolorów
+
+wielką różnicą między tymi grafikami jest strata jakości obrazu podczas skalowania
+w przypadku grafiki wektorowej powiększenia nie wpływają na stratę jakości 
+w grafice bitowej zmienia się pojedyśczy piksel, tracąc ostrość
+
+
+
+
+
+
+
+
