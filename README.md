@@ -1,0 +1,2 @@
+# NaMilyBog
+Zadania z zawodowych
