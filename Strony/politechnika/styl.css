@@ -1,0 +1,38 @@
+body {
+    background-color: #089cfc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#gora {
+    background-color: #089cfc;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+#lewo {
+    width: 12%;
+    float: left;
+    padding: 20px;
+    background-color: #089cfc;
+}
+
+#prawo {
+    width: 80%;
+    float: inline-end;
+    margin-right: 50px;
+
+}
+
+
+#dol {
+    background-color: #3d3d3d;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}

@@ -1,0 +1,145 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    width: 600px;
+
+}
+
+header ul {
+    list-style-type: none;
+
+}
+header ul li {
+    display: block;
+    width: 130px;
+    margin: 0 10px;
+    float: left;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+
+}
+
+header ul li:hover {
+    color: gray;
+
+}
+
+nav {
+    margin-top: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.photos {
+    margin-top: 30px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.photo {
+    width: 125px;
+    height: 30px;
+    padding-top: 5px;
+    background-color: rgb(94,231,185);
+    border-radius: 75px;
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: rgb(0, 236, 158);
+
+}
+
+.photo:hover {
+    background-color: rgb(0, 236, 158);
+
+}
+
+.content {
+    padding-top: 10vh;
+    display: block;
+    min-height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+.photoBig img {
+    width: 100%;
+    height: 100%;
+}
+h2 {
+    text-align: center;
+
+}
+
+.loginPanel {
+    text-align: center;
+    margin: 100px;
+
+}
+
+.loginPanel div {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.subsites {
+    text-align: center;
+
+}
+
+.subsites a {
+    text-decoration: none;
+    color: currentColor;
+    transition: 0.2s all ease-in-out;
+}
+.subsites a:hover {
+    color: gray;
+}
+.subsites li{
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

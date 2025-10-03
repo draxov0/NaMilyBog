@@ -1,0 +1,60 @@
+body {
+    background-color: #ffe0bd;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#gora {
+    background-color: #ffa96f;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+#lewo {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+#prawo {
+    width: 40%;
+    float: right;
+    padding: 20px;
+    background-color: #ffc187;
+}
+
+#prawo img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 10px auto;
+    padding-right: 380px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 4px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
+
+#dol {
+    background-color: #ee8a47;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
