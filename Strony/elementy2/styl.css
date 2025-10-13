@@ -1,0 +1,100 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "aside-left main aside-right"
+    "footer footer footer";
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 5px;
+  text-align: center;
+}
+
+header {
+  grid-area: header;
+  background-color: #d7cce9;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+nav {
+  background-color: #ffa64d;
+  padding: 10px;
+  border: 1px solid black;
+  width: 395%;
+}
+
+aside:first-of-type {
+  grid-area: aside-left;
+  background-color: #b3e0f2;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+aside:last-of-type {
+  grid-area: aside-right;
+  background-color: #b3e0f2;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+main {
+  grid-area: main;
+  background-color: #ccff99;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #9966cc;
+  padding: 10px;
+  border: 1px solid black;
+  color: white;
+}
+
+section {
+  background-color: #66cc66;
+  margin: 5px;
+  
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.sekcja {
+  background-color: #66cc66;
+  margin: 5px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  border: 1px solid black;
+}
+
+article {
+  background-color: #ff4d4d;
+  
+  padding-bottom: 110px;
+  
+  border: 1px solid black;
+}
+
+#srodek {
+  background-color: #ff4d4d;
+  margin: 5px;
+  
+  
+  border: 1px solid black;
+}
+
+figure {
+  background-color: #ffdb4d;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+figcaption {
+  background-color: #fff0b3;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
