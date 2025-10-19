@@ -1,0 +1,78 @@
+nowe elementy semantyczne w html
+
+<article>	zawiera treść artykułu
+<aside>		treść poboczna strony
+<details>	dodatkowe detale, które można ukryć
+<figure>	zawiera ilustracje, diagram czy zdjęcie
+<figcaption>	opis grafiki ze znacznika <figure>
+<footer>	stopka dokumentu
+<header> 	nagłówek dokumentu
+<main> 		główna część dokumentu
+<nav>		elementy nawigacyjne
+<section>	sekcja dokumentu
+<summary>	widoczny nagłówek
+<time>		kontener dla czasu, daty i godziny
+
+
+SECTION ma zawierać zgrupowaną tematycznie treść
+
+<section>
+    <h1>EEEEEEEEEEE</h1>
+    <p>AAAAAAAAAAAAAA</p>
+</section>
+
+
+ARTICLE to niezależna od innych część strony, wykożystywana na forach, blogach czy gazetach
+
+<article>
+    <h1>EEEEEEEEEEE</h1>
+    <p>AAAAAAAAAAAAAA</p>
+</article>
+
+
+HEADER element nahłówka ma być wprowadzeniem do treści, które znajdują się po nim
+
+<article>
+    <header>
+        <h1>EEEEEEEEEEE</h1>
+        <p>AAAAAAAAAAAAAA</p>
+    </header>
+    <p> GGGGGGGGGGGGGGGGG </p>
+</article>
+
+
+FOOTER stopka również jest elementem, który może powtarzać się na stronie. jest elementem zawierającym informacje o treści powyżej
+
+<footer>
+    <p>AAAAAAAAAAAAAA</p>
+    <p>AAAAAAAAAAAAAA</p>
+    <p>AAAAAAAAAAAAAA</p>
+</footer>
+
+
+NAV zawiera zestaw elementów nawigacyjnych
+
+<nav>
+    <a href="na miły link"a</a>
+    <a href="na miły link"b</a>
+    <a href="na miły link"c</a>
+</nav>
+
+
+ASIDE treść poboczna dokumentu, powinna być tematycznie związana
+
+<p>AAAAAAAAAAAAAA</p>
+<aside>
+    <h1>as;klhasgfhasgio</h1>
+    <p>  <<----- 67676767676767</p>
+</aside>
+
+
+
+
+
+
+
+
+
+
