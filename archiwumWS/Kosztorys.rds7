@@ -1,0 +1,487 @@
+﻿[INFO]
+Program=RODOS
+Wersja=7.0.17.7
+WersjaPliku=17
+DataModyf=25.11.2024
+CzasModyf=08:30:15
+RozmiarPliku=6876
+OpisPliku=
+NaPodstawie=F:\Kosztorys.rds7
+Wartość=1749,36
+ID_KS={1E2795D6-071C-433A-B2E0-B9F140A7BA01}
+
+[DAN_OG]
+
+[DANE]
+Ks_metoda=1
+Ks_formuła=0
+Ks_opcNK=0
+OpcKz=1
+OpcKJ=1
+OpcInw=1
+Ks_opcVAT=0
+DP_Norm=6
+DP_RMS=3
+DP_CJ=4
+ZaokrObm=3
+opcZer_Norm=0
+opcZer_RMS=0
+opcZer_CJ=0
+opcZer_Obm=0
+OpcDP=0
+OpcPosred=0
+RodzZaokr=0
+NrElem_auto=0
+NrElem_znak=0
+NrElem_kropka=0
+Num_auto=-1
+Num_rodz=0
+Num_param=1,1,0,0,0,0
+Znak_mnożenia=0
+Spc_wyr=0
+Klasyfikacja=CPV
+NACE=
+PlikCPV=1
+StawkaR=100
+Kz=10
+Kp=0|0|0
+Zysk=0|0|0|0|0|0
+VAT=0
+Waluta=zł
+
+[WYDRUK]
+Lista=P1
+Ceny=1
+LinPion=1
+Pasek=1
+KodPoz=1
+NrST=1
+KodCPV=1
+T1_numer=1
+T1_stawki=1
+T1_nazwyCPV=1
+P1_podst=1
+P1_obmiar=1
+P1_kol_PN=1
+K1_podst=1
+K1a_podst=1
+K1_wart_poz=1
+K1_cen_jedn=1
+K1_sum_elem=1
+K1_sum_koszt=1
+K1a_sum_koszt=1
+K1_kol_Ilosc=1
+K2_podst=1
+K2_sum_koszt=1
+K3_podst=1
+K3_sum_elem=1
+K3_sum_koszt=1
+CJ1_podst=1
+CJ_pozAgr=1
+CJ_pozUpr=1
+
+[ROB]
+Nazwa=Monter-instalator gr. V|r-g
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=17,213
+
+[MAT]
+Nazwa=Etykiety opisowe|szt
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=1
+
+[MAT]
+Nazwa=Gniazda natynkowe EmiterNet (OBUK)|kpl
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=9
+
+[MAT]
+Nazwa=Kabel krosowy miedziany RJ45-RJ45 EmiterNet|szt
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=32
+
+[MAT]
+Nazwa=Kabel miedziany okablowania strukturalnego EmiterNet|m
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=211,2
+
+[MAT]
+Nazwa=Moduł EmiterNet RJ45 nieekranowy narzędziowy|kpl
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=32
+
+[MAT]
+Nazwa=Panel krosowy EmiterNet 24xRJ45 nieekranowany|kpl
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=1
+
+[MAT]
+Nazwa=Szafy teletechniczne 19" EmiterNet stojące|kpl
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=1
+
+[SPR]
+Nazwa=Narzędzie uderzeniowe typu Krone do zarabiania złącz krawędziowych systemu EMiterNet|m-g
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=3,2
+
+[SPR]
+Nazwa=Przyrząd pomiarowy okablowania strukturalnego|m-g
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=2,67
+
+[SPR]
+Nazwa=Ściągacz izolacji|m-g
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=3,2
+
+[SPR]
+Nazwa=Środek łączności bezprzewodowej|m-g
+MnoZr=1
+Rabat=0
+RodzRabatu=0
+Ilość=2,67
+
+[POZ]
+ID=1
+Nr=1
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0102/01
+Opis=Układanie odcinków poziomych pojedynczego kabla miedzianego do 8mm do gniazda użytkownika, w okablowaniu strukturalnym
+Jm=m
+Ilość=30
+ZaokrObm=3
+Cena=1,73
+CenaZr=1,73
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,0085
+
+[R]
+Lp=02
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,0085
+
+[M]
+Lp=20
+Nazwa=Kabel miedziany okablowania strukturalnego EmiterNet|m
+Norma=1,1
+
+[POZ]
+ID=2
+Nr=2
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0102/05
+Opis=Układanie odcinków poziomych i pionowych pojedynczego kabla miedzianego do 8mm do gniazda użytkownika, w okablowaniu strukturalnym - każdy następny kabel w wiązce ponad jeden
+Jm=m
+Ilość=162
+ZaokrObm=3
+Cena=0,81
+CenaZr=0,81
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,004
+
+[R]
+Lp=02
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,004
+
+[M]
+Lp=20
+Nazwa=Kabel miedziany okablowania strukturalnego EmiterNet|m
+Norma=1,1
+
+[POZ]
+ID=3
+Nr=3
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0106/01
+Opis=Montaż na przewodzie 4-parowym modułu nieekranowego RJ45 ze złączem krawędziowym narzędziowym
+Jm=szt
+Ilość=32
+ZaokrObm=3
+Cena=10,17
+CenaZr=10,17
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,1
+
+[M]
+Lp=20
+Nazwa=Moduł EmiterNet RJ45 nieekranowy narzędziowy|kpl
+Norma=1
+
+[S]
+Lp=70
+Nazwa=Narzędzie uderzeniowe typu Krone do zarabiania złącz krawędziowych systemu EMiterNet|m-g
+Norma=0,1
+
+[S]
+Lp=71
+Nazwa=Ściągacz izolacji|m-g
+Norma=0,1
+
+[POZ]
+ID=4
+Nr=4
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0108/01
+Opis=Mocowanie natynkowe gniazda abonenckiego
+Jm=szt
+Ilość=9
+ZaokrObm=3
+Cena=25,41
+CenaZr=25,41
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,25
+
+[M]
+Lp=20
+Nazwa=Gniazda natynkowe EmiterNet (OBUK)|kpl
+Norma=1
+
+[POZ]
+ID=5
+Nr=5
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0109/01
+Opis=Montaż szafy teletechnicznej 19" stojącej
+Jm=kpl
+Ilość=1
+ZaokrObm=3
+Cena=243,96
+CenaZr=243,96
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=1,20
+
+[R]
+Lp=02
+Nazwa=Monter-instalator gr. V|r-g
+Norma=1,20
+
+[M]
+Lp=20
+Nazwa=Szafy teletechniczne 19" EmiterNet stojące|kpl
+Norma=1
+
+[POZ]
+ID=6
+Nr=6
+Kat=KNR EM-01
+Wariant=2
+Wyd=wyd.I 2012
+Tabl=0113/01
+Opis=Montaż tablicy rozdzielczej nieekranowanej
+Jm=szt
+Ilość=1
+ZaokrObm=3
+Cena=10,17
+CenaZr=0
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,100
+
+[M]
+Lp=21
+Nazwa=Panel krosowy EmiterNet 24xRJ45 nieekranowany|kpl
+Norma=1
+
+[POZ]
+ID=7
+Nr=7
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0113/03
+Opis=Przygotowanie i założenie etykiety opisowej
+Jm=szt
+Ilość=1
+ZaokrObm=3
+Cena=2,13
+CenaZr=0
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,021
+
+[M]
+Lp=26
+Nazwa=Etykiety opisowe|szt
+Norma=1
+
+[POZ]
+ID=8
+Nr=8
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0115/01
+Opis=Wykonanie pomiaru łącza transmisyjnego - pierwsza linia
+Jm=pomiar
+Ilość=1
+ZaokrObm=3
+Cena=85,39
+CenaZr=85,39
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,42
+
+[R]
+Lp=02
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,42
+
+[S]
+Lp=70
+Nazwa=Przyrząd pomiarowy okablowania strukturalnego|m-g
+Norma=0,42
+
+[S]
+Lp=71
+Nazwa=Środek łączności bezprzewodowej|m-g
+Norma=0,42
+
+[POZ]
+ID=9
+Nr=9
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0115/02
+Opis=Wykonanie pomiaru łącza transmisyjnego - każda następna linia ponad pierwszą
+Jm=pomiar
+Ilość=15
+ZaokrObm=3
+Cena=30,5
+CenaZr=30,5
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,15
+
+[R]
+Lp=02
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,15
+
+[S]
+Lp=70
+Nazwa=Przyrząd pomiarowy okablowania strukturalnego|m-g
+Norma=0,15
+
+[S]
+Lp=71
+Nazwa=Środek łączności bezprzewodowej|m-g
+Norma=0,15
+
+[POZ]
+ID=10
+Nr=10
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0116/01
+Opis=Montaż kabla krosowego miedzianego w gnieździe abonenckim
+Jm=szt
+Ilość=16
+ZaokrObm=3
+Cena=5,08
+CenaZr=5,08
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,05
+
+[M]
+Lp=20
+Nazwa=Kabel krosowy miedziany RJ45-RJ45 EmiterNet|szt
+Norma=1
+
+[POZ]
+ID=11
+Nr=11
+Kat=KNR EM-01
+Wyd=wyd.I 2012
+Tabl=0116/02
+Opis=Montaż kabla krosowego miedzianego w szafie dystrybucyjnej
+Jm=szt
+Ilość=16
+ZaokrObm=3
+Cena=8,23
+CenaZr=8,23
+MnoZr=1
+MP-R=1,5
+
+[R]
+Lp=01
+Nazwa=Monter-instalator gr. V|r-g
+Norma=0,081
+
+[M]
+Lp=20
+Nazwa=Kabel krosowy miedziany RJ45-RJ45 EmiterNet|szt
+Norma=1
+

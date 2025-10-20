@@ -1,0 +1,65 @@
+!TL-SG3210
+#
+#
+#
+#
+#
+mac address-table aging-time 300
+#
+logging buffer 7
+logging file flash 2
+#
+#
+system-time ntp UTC+08:00 133.100.9.2 139.78.100.163 12
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+interface gigabitEthernet 1/0/1
+  
+  
+#
+interface gigabitEthernet 1/0/2
+  
+  
+#
+interface gigabitEthernet 1/0/3
+  
+  
+#
+interface gigabitEthernet 1/0/4
+  
+  
+#
+interface gigabitEthernet 1/0/5
+  
+  
+#
+interface gigabitEthernet 1/0/6
+  
+  
+#
+interface gigabitEthernet 1/0/7
+  
+  
+#
+interface gigabitEthernet 1/0/8
+  
+  
+#
+interface gigabitEthernet 1/0/9
+  
+#
+interface gigabitEthernet 1/0/10
+  
+#
+interface vlan 1
+ip address-alloc dhcp
+#
+end
